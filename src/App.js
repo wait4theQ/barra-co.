@@ -13,6 +13,7 @@ function App() {
     interval: 3000,
     transitionTime: 500,
     stopOnHover: false,
+    dynamicHeight: true,  
   };
 
   return (
@@ -23,7 +24,6 @@ function App() {
             src={require("./img/banner7.jpg")}
             alt="Banner 1"
             className="Carousel-img"
-            style={{ width: "100%", height: "auto" }}
           />
         </div>
         <div>
@@ -31,7 +31,6 @@ function App() {
             src={require("./img/banner8.jpg")}
             alt="Banner 2"
             className="Carousel-img"
-            style={{ width: "100%", height: "auto" }}
           />
         </div>
         <div>
@@ -39,7 +38,6 @@ function App() {
             src={require("./img/banner9.jpg")}
             alt="Banner 3"
             className="Carousel-img"
-            style={{ width: "100%", height: "auto" }}
           />
         </div>
       </Carousel>
