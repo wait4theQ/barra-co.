@@ -13,29 +13,29 @@ function App() {
     interval: 3000,
     transitionTime: 500,
     stopOnHover: false,
-    dynamicHeight: true,  
+    dynamicHeight: false,
   };
 
   return (
     <div className="App">
       <Carousel className="Carousel" {...carouselSettings}>
-        <div>
+        <div className="banner">
           <img
-            src={require("./img/banner7.jpg")}
+            src={require("./img/banner1.jpg")}
             alt="Banner 1"
             className="Carousel-img"
           />
         </div>
-        <div>
+        <div className="banner">
           <img
-            src={require("./img/banner8.jpg")}
+            src={require("./img/banner2.jpg")}
             alt="Banner 2"
             className="Carousel-img"
           />
         </div>
-        <div>
+        <div className="banner">
           <img
-            src={require("./img/banner9.jpg")}
+            src={require("./img/banner3.jpg")}
             alt="Banner 3"
             className="Carousel-img"
           />
