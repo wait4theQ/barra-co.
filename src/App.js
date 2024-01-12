@@ -56,12 +56,12 @@ function App() {
             <ul className="Navigation-list">
               <li className="Navigation-item">
                 <a href="#drinks" className="Navigation-link">
-                  DRINKS
+                  HOME
                 </a>
               </li>
               <li className="Navigation-item">
                 <a href="#shots" className="Navigation-link">
-                  SHOTS
+                  MENU
                 </a>
               </li>
               <li className="Navigation-item">
@@ -73,8 +73,80 @@ function App() {
           </nav>
         </div>
       </header>
+
+      <section className="Description-section">
+        <div className="Biography">
+          <h2>Barra Cô.</h2>
+          <p>bla bla bla teste teste teste</p>
+        </div>
+
+        <div className="Image-container">
+          <img
+            src={require("./img/banner4.jpg")}
+            alt="Descrição do Bar"
+            className="Description-image"
+          />
+        </div>
+      </section>
+
+      <section className="gallery" id="portafolio">
+        <div className="contenedor">
+          <h2 className="subtitulo">Galeria</h2>
+          <div className="contenedor-galeria">
+          <img
+              src={require("./img/banner1.jpg")}
+              alt=""
+              className="img-galeria"
+            />
+           <img
+              src={require("./img/banner2.jpg")}
+              alt=""
+              className="img-galeria"
+            />
+           <img
+              src={require("./img/banner3.jpg")}
+              alt=""
+              className="img-galeria"
+            />
+           <img
+              src={require("./img/banner4.jpg")}
+              alt=""
+              className="img-galeria"
+            />
+            <img
+              src={require("./img/banner5.jpg")}
+              alt=""
+              className="img-galeria"
+            />
+            <img
+              src={require("./img/banner6.jpg")}
+              alt=""
+              className="img-galeria"
+            />
+            <img
+              src={require("./img/banner7.jpg")}
+              alt=""
+              className="img-galeria"
+            />
+            <img
+              src={require("./img/banner8.jpg")}
+              alt=""
+              className="img-galeria"
+            />
+            <img
+              src={require("./img/banner9.jpg")}
+              alt=""
+              className="img-galeria"
+            />
+          </div>
+        </div>
+      </section>
+
+      
     </div>
+    
   );
 }
+
 
 export default App;

@@ -43,7 +43,6 @@ body, html {
   height: auto;
   max-height: 115px;
   width: auto;  
-  
 }
 
 .Navigation {
@@ -64,12 +63,13 @@ body, html {
   justify-content: space-evenly;
   width: 90%;
   padding: 0%;
+  padding-bottom: 10px;
 }
 
 .Navigation-item {
   flex: 1;
   text-align: center;
-  margin-right: 20px;  
+  margin-right: 30px;  
   padding: 0%;
 }
 
@@ -121,14 +121,12 @@ body, html {
     height: 20px;
     font-size: 10px;
     align-items: center;
-
   }
   .Navigation-item {
     margin-right: 0;
     margin-bottom: 10px;
   }
 }
-
 
 @media (max-width: 770px) {
   .App {
@@ -167,3 +165,159 @@ body, html {
     max-height: 120px;
   }
 }
+
+@media only screen and (max-width: 767px) {
+  .Header-container {
+    top: 50px;
+    padding-bottom: 0px;
+  }
+  .Header-border {
+    bottom: 540px;
+    padding-top: 0px;
+  }
+  .Navigation {
+    padding-bottom: 0px;
+    padding-top: 10px;
+  }
+}
+/* ME SALVA AQ AMOR PF*/
+
+@import url('https://fonts.googleapis.com/css2?family=CursiveFont&display=swap'); 
+
+.Description-section {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  margin: 10px;
+  margin-left: 300px;
+  margin-top: 100px;
+}
+
+.Biography {
+  flex: 1;
+  max-width: 50%;
+  padding: 20px;
+  border-radius: 8px;
+ }
+
+.Biography h2 {
+  font-family: 'CursiveFont', cursive; 
+  font-size: 30px;
+  margin-bottom: 40px;
+  color: #030303;
+}
+
+.Biography p {
+  font-size: 20px;
+  line-height: 1.5;
+  color: #0c0c0c;
+}
+
+.Image-container {
+  flex: 1;
+  max-width: 70%;
+  margin-left: 20px; 
+}
+
+.Description-image {
+  width: 60%;
+  height: auto;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(7, 7, 7, 0.952);
+  }
+
+  /* AQ JA TA DE BOA */
+
+  @import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+  * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+  }
+  
+  body {
+      font-family: 'Poppins', sans-serif;
+  }
+  
+  .contenedor {
+      width: 90%;
+      max-width: 1200px;
+      overflow: hidden;
+      margin: auto;
+      padding: 60px 0;
+  }
+  
+  .subtitulo {
+      text-align: center;
+      font-weight: 700;
+      color: #9f8ad0;
+      margin-bottom: 40px;
+      font-size: 40px;
+  }
+  
+  .gallery {
+      background: #181717;
+  }
+  
+  .contenedor-galeria{
+      display: flex;
+      justify-content: space-evenly;
+      flex-wrap: wrap;
+  }
+  
+  .img-galeria {
+      object-fit: cover;
+      width: 30%;
+      display: block;
+      margin-bottom: 15px;
+      box-shadow: 0 0 6px rgb(0, 0, 0, 0.5);
+      cursor: pointer;
+  }
+  
+  .img-galeria:hover{
+      transition: all 0.3s ease-in-out;
+      transform: scale(1.1);
+  }
+  
+  .imagen-light{
+      position: fixed;
+      background: rgba(0, 0, 0, 0.6);
+      width: 100%;
+      height: 100%;
+      top: 0;
+      left: 0;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      transform: translate(100%);
+      transition: transform .2s ease-in-out;
+  }
+  
+  .show{
+      transform: translate(0);
+  }
+  
+  .agregar-imagen {
+      object-fit: cover;
+      width: 60%;
+      border-radius: 10px;
+      transform: scale(0);
+      transition: transform .3s .2s;
+  }
+  
+  .showImage{
+      transform: scale(1);
+  }
+  
+  .close {
+      position: absolute;
+      top: 15px;
+      right: 15px;
+      width: 40px;
+      cursor: pointer;
+      color:#fff;
+      font-size: 25px;
+  }
+
+
