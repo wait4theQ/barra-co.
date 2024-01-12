@@ -166,20 +166,7 @@ body, html {
   }
 }
 
-@media only screen and (max-width: 767px) {
-  .Header-container {
-    top: 50px;
-    padding-bottom: 0px;
-  }
-  .Header-border {
-    bottom: 540px;
-    padding-top: 0px;
-  }
-  .Navigation {
-    padding-bottom: 0px;
-    padding-top: 10px;
-  }
-}
+
 /* ME SALVA AQ AMOR PF*/
 
 @import url('https://fonts.googleapis.com/css2?family=CursiveFont&display=swap'); 
