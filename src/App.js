@@ -74,15 +74,23 @@ function App() {
         </div>
       </header>
 
-      <section className="Description-section">
+      <section className="description-section">
         <div className="Biography">
           <h2>Barra Cô.</h2>
-          <p>bla bla bla teste teste teste</p>
+          <p>
+            "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+            eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
+            ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+            aliquip ex ea commodo consequat. Duis aute irure dolor in
+            reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
+            pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
+            culpa qui officia deserunt mollit anim id est laborum."
+          </p>
         </div>
 
         <div className="Image-container">
           <img
-            src={require("./img/banner4.jpg")}
+            src={require("./img/sobre.jpg")}
             alt="Descrição do Bar"
             className="Description-image"
           />
@@ -93,60 +101,92 @@ function App() {
         <div className="contenedor">
           <h2 className="subtitulo">Galeria</h2>
           <div className="contenedor-galeria">
-          <img
-              src={require("./img/banner1.jpg")}
-              alt=""
-              className="img-galeria"
-            />
-           <img
-              src={require("./img/banner2.jpg")}
-              alt=""
-              className="img-galeria"
-            />
-           <img
-              src={require("./img/banner3.jpg")}
-              alt=""
-              className="img-galeria"
-            />
-           <img
-              src={require("./img/banner4.jpg")}
+            <img
+              src={require("./img/barraco bar -01.jpg")}
               alt=""
               className="img-galeria"
             />
             <img
-              src={require("./img/banner5.jpg")}
+              src={require("./img/barraco bar -02.jpg")}
               alt=""
               className="img-galeria"
             />
             <img
-              src={require("./img/banner6.jpg")}
+              src={require("./img/barraco bar -03.jpg")}
               alt=""
               className="img-galeria"
             />
             <img
-              src={require("./img/banner7.jpg")}
+              src={require("./img/barraco bar -07.jpg")}
               alt=""
               className="img-galeria"
             />
             <img
-              src={require("./img/banner8.jpg")}
+              src={require("./img/barraco bar -08.jpg")}
               alt=""
               className="img-galeria"
             />
             <img
-              src={require("./img/banner9.jpg")}
+              src={require("./img/barraco bar -17.jpg")}
               alt=""
               className="img-galeria"
             />
+            <img
+              src={require("./img/barraco bar -18.jpg")}
+              alt=""
+              className="img-galeria"
+            />
+            <img
+              src={require("./img/barraco bar -19.jpg")}
+              alt=""
+              className="img-galeria"
+            />
+            <img
+              src={require("./img/barraco bar -27.jpg")}
+              alt=""
+              className="img-galeria"
+            />
+            <img
+              src={require("./img/barraco bar -29.jpg")}
+              alt=""
+              className="img-galeria"
+            />
+            <img
+              src={require("./img/barraco bar -32.jpg")}
+              alt=""
+              className="img-galeria"
+            />
+            <img
+              src={require("./img/barraco bar -22.jpg")}
+              alt=""
+              className="img-galeria"
+            />
+           
           </div>
         </div>
       </section>
-
-      
+      <footer className="Footer">
+        <div className="links">
+          <a href="/">Home</a>
+          <a href="/">Galeria</a>
+          <a href="/">Menu</a>
+          <a href="/">Eventos</a>
+        </div>
+        <div className="instagram">
+          <a
+            href="https://www.instagram.com/barra.co.fln/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <img src={require("./img/instagram.png")} alt="Instagram" />
+          </a>
+        </div>
+        <div className="direitos">
+          Todos os direitos reservados &copy;Barra Cô. 2024
+        </div>
+      </footer>
     </div>
-    
   );
 }
-
 
 export default App;

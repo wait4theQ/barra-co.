@@ -1,323 +1,406 @@
 body, html {
-  height: 100%;
-  margin: 0;
-  font-family: 'Arial', sans-serif;
+    height: 100%;
+    margin: 0;
+    font-family: 'Arial', sans-serif;
 }
 
 .App {
-  display: flex;
-  flex-direction: column;
-  height: 1vw;
-}
-
-.TopBar {
-  display: flex;
-  justify-content: center;
-  background-color: #101111;
-  color: #fff;
-  padding: 5px;
-  text-align: center;
-  position: fixed;
-  width: 100%;
-  top: 0;
-  z-index: 1000;
-  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-}
-
-.TopBar-content {
-  display: flex;
-  align-items: center;
-}
-
-.TopBar p {
-  margin: 0;
-}
-
-.Bar-logo {
-  margin-top: 0px;
-  margin-bottom: 10px;
-  margin-left: auto;
-  margin-right: auto;
-  display: block;
-  max-width: 770px;
-  height: auto;
-  max-height: 115px;
-  width: auto;  
-}
-
-.Navigation {
-  margin-top: 5px;
-  margin-left: auto;
-  margin-right: auto;
-  display: flex;
-  justify-content: center;
-  padding: 0%;
-  max-width: 100%;
-  height: auto;
-  max-height: 120px;
-}
-
-.Navigation-list {
-  list-style: none;
-  display: flex;
-  justify-content: space-evenly;
-  width: 90%;
-  padding: 0%;
-  padding-bottom: 10px;
-}
-
-.Navigation-item {
-  flex: 1;
-  text-align: center;
-  margin-right: 30px;  
-  padding: 0%;
-}
-
-.Navigation-link {
-  text-decoration: none;
-  color: #f8f7f7;
-  font-weight: bold;
-  position: relative;
-  transition: color 0.3s ease, border-bottom 0.3s ease;
-
-  &:hover {
-    color: #e056c9;
-    border-bottom: 2px solid #e056c9;
-  }
-}
-
-.Header-border {
-  border-bottom: 1px solid #ebe1e2;
-  width: 35%;
-  margin-bottom: 5px;
-  padding-bottom: 5px;
-  position: absolute;
-  bottom: 670px;
-  margin-left: auto;
-  margin-right: auto;
-  margin-top: 10px;
-  left: 0;
-  right: 0;
-}
-
-.Header-container {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  flex: 1;
-  padding-bottom: 10px;
-}
-
-.banner {
-  max-height: 950px;
-}
-
-@media (max-width: 770px) {
-  .Navigation-list {
-    flex-direction: column;
-    align-items: center;
-  }
-  .TopBar {
-    height: 20px;
-    font-size: 10px;
-    align-items: center;
-  }
-  .Navigation-item {
-    margin-right: 0;
-    margin-bottom: 10px;
-  }
-}
-
-@media (max-width: 770px) {
-  .App {
     display: flex;
     flex-direction: column;
     height: 1vw;
-  }
-
-  .Header-border {
-    bottom: 40%;
-  }
-  .Bar-logo {
-    max-height: 80px; 
-  }
-
-  .Navigation {
-    margin-top: 5px; 
-  }
-
-  .carousel .slide img {
-    height: 100% !important;
-    border: 0;
-  }
-
-  .banner {
-    height: 100vh;
-  }
-
-  .Carousel-img {
-    object-fit: cover;
-  }
-
-  .Navigation {
-    width: 100%;
-    height: 50%;
-    max-height: 120px;
-  }
 }
+
+.TopBar {
+    display: flex;
+    justify-content: center;
+    background-color: #101111;
+    color: #fff;
+    padding: 5px;
+    text-align: center;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 1000;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.TopBar-content {
+    display: flex;
+    align-items: center;
+}
+
+.TopBar p {
+    margin: 0;
+}
+
+.Bar-logo {
+    margin-top: 0px;
+    margin-bottom: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    max-width: 770px;
+    height: auto;
+    max-height: 115px;
+    width: auto;
+}
+
+.Navigation {
+    margin-top: 5px;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    justify-content: center;
+    padding: 0%;
+    max-width: 100%;
+    height: auto;
+    max-height: 120px;
+}
+
+.Navigation-list {
+    list-style: none;
+    display: flex;
+    justify-content: space-evenly;
+    width: 90%;
+    padding: 0%;
+    padding-bottom: 15px;
+}
+
+.Navigation-item {
+    flex: 1;
+    text-align: center;
+    margin-right: 30px;
+    padding: 0%;
+}
+
+.Navigation-link {
+    text-decoration: none;
+    color: #f8f7f7;
+    font-weight: bold;
+    position: relative;
+    transition: color 0.3s ease;
+
+    &:hover {
+        color: #e056c9;
+        border-bottom: 2px solid #e056c9;
+    }
+}
+
+.Header-border {
+    border-bottom: 1px solid #ebe1e2;
+    width: 35%;
+    margin-bottom: 5px;
+    padding-bottom: 5px;
+    position: absolute;
+    bottom: 670px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
+    left: 0;
+    right: 0;
+}
+
+.Header-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex: 1;
+    padding-bottom: 10px;
+}
+
+.banner {
+    max-height: 950px;
+}
+
+@media (max-width: 770px) {
+    .Navigation-list {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .TopBar {
+        height: 20px;
+        font-size: 10px;
+        align-items: center;
+    }
+
+    .Navigation-item {
+        margin-right: 0;
+        margin-bottom: 10px;
+    }
+}
+
+@media (max-width: 770px) {
+    .App {
+        display: flex;
+        flex-direction: column;
+        height: 1vw;
+    }
+
+    .Header-border {
+        bottom: 40%;
+    }
+
+    .Bar-logo {
+        max-height: 80px;
+    }
+
+    .Navigation {
+        margin-top: 5px;
+    }
+
+    .carousel .slide img {
+        height: 100% !important;
+        border: 0;
+    }
+
+    .banner {
+        height: 100vh;
+    }
+
+    .Carousel-img {
+        object-fit: cover;
+    }
+
+    .Navigation {
+        width: 100%;
+        height: 50%;
+        max-height: 120px;
+    }
+    .Biography {
+        align-items: center;
+        max-width: fit-content !important;
+    }
+    .Biography h2 {
+        margin-bottom: 20px !important;
+    }
+    .description-section {
+        justify-content: center;
+        padding: 40px !important;
+        flex-direction: column;
+        align-items: center;
+        height: 100vh !important;
+
+    }
+    .Biography p {
+        font-size: 20px !important;
+        line-height: 1 !important;
+        color: #0c0c0c;
+        width: 100% !important;
+    }
+    .Image-container {
+        width: 100% !important;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 25px;
+    }
+
+    .Description-image {
+        width: 100%;
+        height: auto;
+        border-radius: 8px;
+        box-shadow: 0 0 10px rgba(7, 7, 7, 0.952);
+    }
+}
+
 @media only screen and (max-width: 767px) {
-  .Header-container {
-    top: 50px;
-    padding-bottom: 0px;
-  }
-  .Header-border {
-    bottom: 540px;
-    padding-top: 0px;
-  }
-  .Navigation {
-    padding-bottom: 0px;
-    padding-top: 10px;
-  }
+    .Header-container {
+        top: 50px;
+        padding-bottom: 0px;
+    }
+
+    .Header-border {
+        bottom: 540px;
+        padding-top: 0px;
+    }
+
+    .Navigation {
+        padding-bottom: 0px;
+        padding-top: 10px;
+    }
+
 }
 
 /* ME SALVA AQ AMOR PF*/
 
-@import url('https://fonts.googleapis.com/css2?family=CursiveFont&display=swap'); 
+@import url('https://fonts.googleapis.com/css2?family=CursiveFont&display=swap');
 
-.Description-section {
-  display: flex;
-  justify-content: center;
-  align-items: flex-start;
-  margin: 10px;
-  margin-left: 300px;
-  margin-top: 100px;
+.description-section {
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    padding:100px;
 }
 
 .Biography {
-  flex: 1;
-  max-width: 50%;
-  padding: 20px;
-  border-radius: 8px;
- }
+    flex: 1;
+    max-width: 50%;
+    border-radius: 8px;
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    justify-content: flex-start;
+    height: 800px;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
 
 .Biography h2 {
-  font-family: 'CursiveFont', cursive; 
-  font-size: 30px;
-  margin-bottom: 40px;
-  color: #030303;
+    font-family: 'Poppins', sans-serif;
+    font-size: 30px;
+    margin-bottom: 40px;
+    color: #0c0c0c;
 }
 
 .Biography p {
-  font-size: 20px;
-  line-height: 1.5;
-  color: #0c0c0c;
+    font-size: 20px;
+    line-height: 1.5;
+    color: #0c0c0c;
+    width: 85%;
 }
 
 .Image-container {
-  flex: 1;
-  max-width: 70%;
-  margin-left: 20px; 
+    width: 40%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .Description-image {
-  width: 60%;
-  height: auto;
-  border-radius: 8px;
-  box-shadow: 0 0 10px rgba(7, 7, 7, 0.952);
-  }
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(7, 7, 7, 0.952);
+}
 
-  /* AQ JA TA DE BOA */
+/* AQ JA TA DE BOA */
 
-  @import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
 
-  * {
-      margin: 0;
-      padding: 0;
-      box-sizing: border-box;
-  }
-  
-  body {
-      font-family: 'Poppins', sans-serif;
-  }
-  
-  .contenedor {
-      width: 90%;
-      max-width: 1200px;
-      overflow: hidden;
-      margin: auto;
-      padding: 60px 0;
-  }
-  
-  .subtitulo {
-      text-align: center;
-      font-weight: 700;
-      color: #9f8ad0;
-      margin-bottom: 40px;
-      font-size: 40px;
-  }
-  
-  .gallery {
-      background: #181717;
-  }
-  
-  .contenedor-galeria{
-      display: flex;
-      justify-content: space-evenly;
-      flex-wrap: wrap;
-  }
-  
-  .img-galeria {
-      object-fit: cover;
-      width: 30%;
-      display: block;
-      margin-bottom: 15px;
-      box-shadow: 0 0 6px rgb(0, 0, 0, 0.5);
-      cursor: pointer;
-  }
-  
-  .img-galeria:hover{
-      transition: all 0.3s ease-in-out;
-      transform: scale(1.1);
-  }
-  
-  .imagen-light{
-      position: fixed;
-      background: rgba(0, 0, 0, 0.6);
-      width: 100%;
-      height: 100%;
-      top: 0;
-      left: 0;
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      transform: translate(100%);
-      transition: transform .2s ease-in-out;
-  }
-  
-  .show{
-      transform: translate(0);
-  }
-  
-  .agregar-imagen {
-      object-fit: cover;
-      width: 60%;
-      border-radius: 10px;
-      transform: scale(0);
-      transition: transform .3s .2s;
-  }
-  
-  .showImage{
-      transform: scale(1);
-  }
-  
-  .close {
-      position: absolute;
-      top: 15px;
-      right: 15px;
-      width: 40px;
-      cursor: pointer;
-      color:#fff;
-      font-size: 25px;
-  }
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
 
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+.contenedor {
+    width: 90%;
+    max-width: 1200px;
+    overflow: hidden;
+    margin: auto;
+    padding: 60px 0;
+}
+
+.subtitulo {
+    text-align: center;
+    font-weight: 700;
+    color: #9f8ad0;
+    margin-bottom: 40px;
+    font-size: 40px;
+}
+
+.gallery {
+    background: #181717;
+}
+
+.contenedor-galeria {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+.img-galeria {
+    object-fit: cover;
+    width: 30%;
+    display: block;
+    margin-bottom: 15px;
+    box-shadow: 0 0 6px rgb(0, 0, 0, 0.5);
+    cursor: pointer;
+}
+
+.img-galeria:hover {
+    transition: all 0.3s ease-in-out;
+    transform: scale(1.1);
+}
+
+.imagen-light {
+    position: fixed;
+    background: rgba(0, 0, 0, 0.6);
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transform: translate(100%);
+    transition: transform .2s ease-in-out;
+}
+
+.show {
+    transform: translate(0);
+}
+
+.agregar-imagen {
+    object-fit: cover;
+    width: 60%;
+    border-radius: 10px;
+    transform: scale(0);
+    transition: transform .3s .2s;
+}
+
+.showImage {
+    transform: scale(1);
+}
+
+.close {
+    position: absolute;
+    top: 15px;
+    right: 15px;
+    width: 40px;
+    cursor: pointer;
+    color: #fff;
+    font-size: 25px;
+}
+
+
+.Footer {
+  background-color: #000000;
+  color: #6b6767;
+  padding: 15px;
+  text-align: center;
+}
+
+.Footer a {
+  color: #fff;
+  margin: 0 10px;
+  text-decoration: none;
+}
+
+.instagram img {
+  width: 40px; /* Ajuste o tamanho conforme necessário */
+  transition: transform 0.3s ease; /* Adiciona uma transição suave na mudança de escala */
+}
+
+.instagram img:hover {
+  transform: scale(1.1); /* Aumenta a escala em 10% quando passar o mouse */
+}
+
+.Footer a {
+  color: #fff;
+  margin: 0 10px;
+  text-decoration: none;
+  transition: color 0.3s ease; /* Adiciona uma transição suave na mudança de cor */
+}
+
+.Footer a:hover {
+  color: #c26dac; /* Cor que você deseja quando passar o mouse */
+  
+}
 
