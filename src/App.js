@@ -74,15 +74,15 @@ function App() {
         </div>
       </header>
 
-      <section className="Description-section">
+      <section className="description-section">
         <div className="Biography">
           <h2>Barra Cô.</h2>
-          <p>bla bla bla teste teste teste</p>
+          <p>"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."</p>
         </div>
 
         <div className="Image-container">
           <img
-            src={require("./img/banner4.jpg")}
+            src={require("./img/banner3.jpg")}
             alt="Descrição do Bar"
             className="Description-image"
           />
