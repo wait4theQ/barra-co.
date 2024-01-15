@@ -21,7 +21,7 @@ function App() {
       <Carousel className="Carousel" {...carouselSettings}>
         <div className="banner">
           <img
-            src={require("./img/banner1.jpg")}
+            src={require("./img/bannerk.jpeg")}
             alt="Banner 1"
             className="Carousel-img"
           />
@@ -77,7 +77,15 @@ function App() {
       <section className="description-section">
         <div className="Biography">
           <h2>Barra Cô.</h2>
-          <p>"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."</p>
+          <p>
+            "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+            eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
+            ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+            aliquip ex ea commodo consequat. Duis aute irure dolor in
+            reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
+            pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
+            culpa qui officia deserunt mollit anim id est laborum."
+          </p>
         </div>
 
         <div className="Image-container">
@@ -153,7 +161,6 @@ function App() {
               alt=""
               className="img-galeria"
             />
-           
           </div>
         </div>
       </section>
@@ -176,11 +183,13 @@ function App() {
         <div className="direitos">
           Todos os direitos reservados &copy;Barra Cô. 2024
         </div>
+        <div className="border"></div>
+        <div className="CreatedBy">
+          Created By: <a href="/" target="_blank">@GuiGo Solutions</a>
+        </div>
       </footer>
     </div>
-    
   );
 }
-
 
 export default App;

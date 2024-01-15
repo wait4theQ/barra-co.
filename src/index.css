@@ -11,3 +11,22 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.CreatedBy {
+  background-color: #fffafa;
+  color: #131212;
+  text-align: center;
+  padding: 5px;
+  position: relative;
+  bottom: 0;
+  width: 100%;
+}
+
+.CreatedBy p {
+  margin: 0;
+}
+
+.CreatedBy a {
+  color: #030303;
+  text-decoration: underline;
+}

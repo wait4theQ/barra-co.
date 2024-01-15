@@ -7,7 +7,7 @@ body, html {
 .App {
     display: flex;
     flex-direction: column;
-    height: 1vw;
+    height: 100%;
 }
 
 .TopBar {
@@ -21,7 +21,7 @@ body, html {
     width: 100%;
     top: 0;
     z-index: 1000;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-family: 'Poppins', sans-serif;
 }
 
 .TopBar-content {
@@ -64,6 +64,7 @@ body, html {
     width: 90%;
     padding: 0%;
     padding-bottom: 15px;
+    
 }
 
 .Navigation-item {
@@ -71,18 +72,23 @@ body, html {
     text-align: center;
     margin-right: 30px;
     padding: 0%;
+    
 }
+
 
 .Navigation-link {
     text-decoration: none;
     color: #f8f7f7;
-    font-weight: bold;
+    font-weight: bolder;
+    font-family: 'Poppins', sans-serif;
     position: relative;
     transition: color 0.3s ease;
+    
+    
 
     &:hover {
-        color: #e056c9;
-        border-bottom: 2px solid #e056c9;
+        color: #f1abe6;
+        border-bottom: 2px solid #f5bbeb;
     }
 }
 
@@ -134,7 +140,7 @@ body, html {
     .App {
         display: flex;
         flex-direction: column;
-        height: 1vw;
+        height: 100%;
     }
 
     .Header-border {
@@ -405,5 +411,32 @@ body {
     
   }
   
+  .CreatedBy {
+    background-color: #000;
+    color: #ebe9e9;
+    text-align: center;
+    padding: 5px;
+    padding-bottom: 0px;
+    margin-top: 5px;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+ }
+ .border {
+    border-top: 0.5px solid #ebe1e2;
+    width: 35%;
+    margin: 0 auto;
+   
+  }
+  .CreatedBy p {
+    margin: 0;
+    
+  }
   
-  
+  .CreatedBy a {
+    color: #fbfaff;
+    text-decoration: underline;
+  }
+ .CreatedBy a:hover {
+    color:#1c12a1;
+ }
