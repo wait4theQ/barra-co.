@@ -371,36 +371,38 @@ body {
 
 
 .Footer {
-  background-color: #000000;
-  color: #6b6767;
-  padding: 15px;
-  text-align: center;
-}
-
-.Footer a {
-  color: #fff;
-  margin: 0 10px;
-  text-decoration: none;
-}
-
-.instagram img {
-  width: 40px; /* Ajuste o tamanho conforme necessário */
-  transition: transform 0.3s ease; /* Adiciona uma transição suave na mudança de escala */
-}
-
-.instagram img:hover {
-  transform: scale(1.1); /* Aumenta a escala em 10% quando passar o mouse */
-}
-
-.Footer a {
-  color: #fff;
-  margin: 0 10px;
-  text-decoration: none;
-  transition: color 0.3s ease; /* Adiciona uma transição suave na mudança de cor */
-}
-
-.Footer a:hover {
-  color: #c26dac; /* Cor que você deseja quando passar o mouse */
+    background-color: #000000;
+    color: #6b6767;
+    padding: 15px;
+    text-align: center;
+  }
   
-}
-
+  .Footer a {
+    color: #fff;
+    margin: 0 10px;
+    text-decoration: none;
+  }
+  
+  .instagram img {
+    width: 40px; 
+    transition: transform 0.3s ease; 
+  }
+  
+  .instagram img:hover {
+    transform: scale(1.1); 
+  }
+  
+  .Footer a {
+    color: #fff;
+    margin: 0 10px;
+    text-decoration: none;
+    transition: color 0.3s ease; /* Adiciona uma transição suave na mudança de cor */
+  }
+  
+  .Footer a:hover {
+    color: #c26dac; /* Cor que você deseja quando passar o mouse */
+    
+  }
+  
+  
+  
