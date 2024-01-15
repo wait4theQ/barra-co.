@@ -322,6 +322,7 @@ body {
     margin-bottom: 15px;
     box-shadow: 0 0 6px rgb(0, 0, 0, 0.5);
     cursor: pointer;
+    border-radius: 8px;
 }
 
 .img-galeria:hover {
