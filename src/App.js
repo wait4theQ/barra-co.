@@ -3,7 +3,8 @@ import "./App.css";
 import logo from "./img/logo.png";
 import "react-responsive-carousel/lib/styles/carousel.min.css";
 import { Carousel } from "react-responsive-carousel";
-
+import Menu from "./pages/menu";
+import Navbar from "./navbar";
 function App() {
   const carouselSettings = {
     showArrows: false,
@@ -42,37 +43,7 @@ function App() {
         </div>
       </Carousel>
 
-      <header className="App-header">
-        <div className="TopBar">
-          <p>Rua Tiradentes, 164 - Centro / Quarta a sábado - 19h - 01h</p>
-        </div>
-
-        <div className="Header-container Header-border">
-          <a href="/" className="Logo-link">
-            <img src={logo} className="Bar-logo" alt="logo do bar" />
-          </a>
-
-          <nav className="Navigation">
-            <ul className="Navigation-list">
-              <li className="Navigation-item">
-                <a href="#drinks" className="Navigation-link">
-                  HOME
-                </a>
-              </li>
-              <li className="Navigation-item">
-                <a href="#shots" className="Navigation-link">
-                  MENU
-                </a>
-              </li>
-              <li className="Navigation-item">
-                <a href="#eventos" className="Navigation-link">
-                  EVENTOS
-                </a>
-              </li>
-            </ul>
-          </nav>
-        </div>
-      </header>
+      <Navbar></Navbar>
 
       <section className="description-section">
         <div className="Biography">
