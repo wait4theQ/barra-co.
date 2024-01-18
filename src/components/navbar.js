@@ -1,15 +1,13 @@
 import React from "react";
-import "./App.css";
-import logo from "./img/logo.png";
+import "../App.css";
+import logo from "../img/logo.png";
 import "react-responsive-carousel/lib/styles/carousel.min.css";
-
+import {Link} from "react-router-dom";
+import AddressBar from "./addressBar";
 function Navbar() {
     return (
         <header className="App-header">
-            <div className="TopBar">
-                <p>Rua Tiradentes, 164 - Centro / Quarta a sábado - 19h - 01h</p>
-            </div>
-
+            <AddressBar/>
             <div className="Header-container Header-border">
                 <a href="/" className="Logo-link">
                     <img src={logo} className="Bar-logo" alt="logo do bar"/>
@@ -18,18 +16,18 @@ function Navbar() {
                 <nav className="Navigation">
                     <ul className="Navigation-list">
                         <li className="Navigation-item">
-                            <Link to="#drinks" className="Navigation-link">
-                                HOME
-                            </Link>
-                        </li>
-                        <li className="Navigation-item">
-                            <Link to="#shots" className="Navigation-link">
+                            <Link to="menu" className="Navigation-link">
                                 MENU
                             </Link>
                         </li>
                         <li className="Navigation-item">
-                            <Link to="menu" className="Navigation-link">
+                            <Link to="events" className="Navigation-link">
                                 EVENTOS
+                            </Link>
+                        </li>
+                        <li className="Navigation-item">
+                            <Link to="contact" className="Navigation-link">
+                                CONTATO
                             </Link>
                         </li>
                     </ul>

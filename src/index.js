@@ -1,24 +1,25 @@
+import ReactDOM from "react-dom/client";
+
 import React from "react";
-import Navbar from "./navbar";
 import {
-    BrowserRouter as Router,
     Routes,
-    Route,
+    Route, BrowserRouter, Router,
 } from "react-router-dom";
-import App from "./";
-import Menu from "./pages/menu";
+import App from "./App.js";
+import Menu from "./pages/menu.js";
 
 
-function App() {
+export default function Routing() {
     return (
-        <Router>
-            <Navbar />
+        <BrowserRouter>
             <Routes>
-                <Route exact path="/" element={<App />} />
-                <Route path="/menu" element={<Menu />} />
+                <Route path="/" element={<App/>}/>
+                <Route path="/menu" element={<Menu/>}/>
             </Routes>
-        </Router>
+        </BrowserRouter>
     );
 }
 
-export default App;
+
+const root = ReactDOM.createRoot(document.getElementById('root'));
+root.render(<Routing />);

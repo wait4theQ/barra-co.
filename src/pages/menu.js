@@ -1,59 +1,78 @@
-import logo from "../img/logo.png";
 import React from "react";
+import Footer from "../components/footer";
+import "../App.css";
+import {drinks, shots, alcoholFree, others} from "./data";
+import AddressBar from "../components/addressBar";
 
 function Menu() {
 
-    return (
-        <div className="App">
-
-            <header className="App-header">
-                <div className="TopBar">
-                    <p>Rua Tiradentes, 164 - Centro / Quarta a sábado - 19h - 01h</p>
-                </div>
-
-                <div className="Header-container Header-border">
-                    <a href="/public" className="Logo-link">
-                        <img src={logo} className="Bar-logo" alt="logo do bar" />
-                    </a>
-
-
-                </div>
-            </header>
-
-            <section className="description-section">
-
-
-            </section>
-
-            <section className="gallery" id="portafolio">
-
-            </section>
-            <footer className="Footer">
-                <div className="links">
-                    <a href="/public">Home</a>
-                    <a href="/public">Galeria</a>
-                    <a href="/public">Menu</a>
-                    <a href="/public">Eventos</a>
-                </div>
-                <div className="instagram">
-                    <a
-                        href="https://www.instagram.com/barra.co.fln/"
-                        target="_blank"
-                        rel="noopener noreferrer"
-                    >
-                        <img src={require("../img/instagram.png")} alt="Instagram" />
-                    </a>
-                </div>
-                <div className="direitos">
-                    Todos os direitos reservados &copy;Barra Cô. 2024
-                </div>
-                <div className="border"></div>
-                <div className="CreatedBy">
-                    Created By: <a href="/public" target="_blank">@GuiGo Solutions</a>
-                </div>
-            </footer>
-        </div>
+//  LISTAGEM INFOS DOS DRINKS
+    const listDrinks = drinks.map(drink =>
+        <li key={drinks.id} className="drink-list">
+            <div className="drink-container">
+                <b>{drink.name}</b> {drink.size} {drink.price}
+                <br/>
+                {drink.ingredients}
+            </div>
+        </li>
     );
+
+//  LISTAGEM INFOS DOS SHOTS
+    const listShots = shots.map(shot =>
+            <li key={shots.id} className="drink-list">
+                <div className="shot-container">
+                    <b>{shot.name}</b> {shot.price}
+                    <br/>
+                    {shot.ingredients}
+                </div>
+            </li>
+    );
+
+//  LISTAGEM INFOS DAS BEBIDAS SEM ALCOOL
+    const listAlcoholFree = alcoholFree.map(alcoholFree =>
+        <li key={alcoholFree.id} className="drink-list">
+            <div className="shot-container">
+                <b>{alcoholFree.name}</b> {alcoholFree.size} {alcoholFree.price}
+                <br/>
+                {alcoholFree.ingredients}
+            </div>
+        </li>
+    );
+
+//  LISTAGEM INFOS DE OUTROS
+    const listOthers = others.map(other =>
+        <li key={others.id} className="drink-list">
+            <div className="shot-container">
+                <b>{other.name}</b> {other.price}
+                <br/>
+            </div>
+        </li>
+    );
+
+    return (<div className="App">
+        <AddressBar></AddressBar>
+        <section className="menu-section">
+            <div className="menu-drinks">
+                <h2>DRINKS</h2>
+                {listDrinks}
+            </div>
+            <div className="menu-shots">
+                <h2>SHOTS</h2>
+                {listShots}
+            </div>
+            <div className="menu-shots">
+                <h2>SEM ALCOOL</h2>
+                {listAlcoholFree}
+            </div>
+            <div className="menu-shots">
+                <h2>OUTROS</h2>
+                {listOthers}
+            </div>
+        </section>
+
+        <Footer></Footer>
+    </div>);
+
 }
 
 export default Menu;

@@ -438,5 +438,9 @@ body {
     text-decoration: underline;
   }
  .CreatedBy a:hover {
-    color:#1c12a1;
+     color: #c26dac;
+ }
+ /* COLOQUEI SO PRA TESTAR, DEPOIS REMOVEMOS <3 */
+ .menu-section {
+     height: 900px;
  }
