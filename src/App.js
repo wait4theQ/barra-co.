@@ -98,41 +98,7 @@ function App() {
                             alt=""
                             className="img-galeria"
                         />
-                        <img
-                            src={require("./img/barraco bar -17.jpg")}
-                            alt=""
-                            className="img-galeria"
-                        />
-                        <img
-                            src={require("./img/barraco bar -18.jpg")}
-                            alt=""
-                            className="img-galeria"
-                        />
-                        <img
-                            src={require("./img/barraco bar -19.jpg")}
-                            alt=""
-                            className="img-galeria"
-                        />
-                        <img
-                            src={require("./img/barraco bar -27.jpg")}
-                            alt=""
-                            className="img-galeria"
-                        />
-                        <img
-                            src={require("./img/barraco bar -29.jpg")}
-                            alt=""
-                            className="img-galeria"
-                        />
-                        <img
-                            src={require("./img/barraco bar -32.jpg")}
-                            alt=""
-                            className="img-galeria"
-                        />
-                        <img
-                            src={require("./img/barraco bar -22.jpg")}
-                            alt=""
-                            className="img-galeria"
-                        />
+                       
                     </div>
                 </div>
             </section>
