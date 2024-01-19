@@ -40,15 +40,15 @@ const Menu = () => {
         </div>
 
         {isMenuVisible && (
-          <div className="menuContainer">
-            {currentMenu.map(item => (
-              <div key={item.id} className="menuItem">
-                <img src={`caminho/para/${item.name.toLowerCase()}.jpg`} alt={item.name} />
-                <h3>{item.name}</h3>
-                <p>{item.ingredients}</p>
-                <p className="price">{item.price}</p>
-                <p>{item.size}</p>
-              </div>
+  <div className="menuContainer">
+    {currentMenu.map(item => (
+      <div key={item.id} className="menuItem">
+        <img src={item.image} alt={item.name} />
+        <h3>{item.name}</h3>
+        <p>{item.ingredients}</p>
+        <p className="price">{item.price}</p>
+        <p>{item.size}</p>
+      </div>
             ))}
           </div>
         )}

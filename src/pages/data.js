@@ -1,16 +1,11 @@
-import barraCoImage from '../img/barraco bar -22.jpg';
-
-
 export const drinks = [{
+
     id: 0,
     name: 'Barra cô ',
     ingredients: 'Vodka, Licor de café e Espuma de caramelo salgado',
     price: 'R$ 22,00' ,
     size: '400ml',
-    image: barraCoImage,
     
-    
-
 }, {
     id: 1,
     name: 'Gin Tônica ',
@@ -82,6 +77,7 @@ export const shots = [{
     name: 'Pônei Maldito',
     ingredients: 'Vodka, Licor de cereja, limão e marshmellow',
     price: 'R$ 15,00' ,
+    
 },{
     id: 3,
     name: 'Da Bruxa',
