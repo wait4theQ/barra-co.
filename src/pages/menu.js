@@ -1,11 +1,12 @@
 import React, { useState } from 'react';
 import { drinks, shots, alcoholFree, others } from './data';
 import './menu.css'; 
+import Footer from '../components/footer.js'
 
 
 const Menu = () => {
   const [currentMenu, setCurrentMenu] = useState(drinks);
-  const [activeButton, setActiveButton] = useState('drinks');
+  const [activeButton, setActiveButton] = useState();
   const [isMenuVisible, setMenuVisibility] = useState(false);
 
   const showMenu = (menu, buttonName) => {
@@ -53,6 +54,7 @@ const Menu = () => {
           </div>
         )}
       </div>
+      <Footer></Footer>
     </div>
     
   );

@@ -1,6 +1,6 @@
 import React from "react";
 import "./App.css";
-import logo from "./img/logo.png";
+//import logo from "./img/logo.png";
 import "react-responsive-carousel/lib/styles/carousel.min.css";
 import {Carousel} from "react-responsive-carousel";
 import Navbar from "./components/navbar";
@@ -69,7 +69,7 @@ function App() {
                 </div>
             </section>
 
-            <section className="gallery" id="portafolio">
+            <section className="gallery" id="galeria">
                 <div className="contenedor">
                     <h2 className="subtitulo">Galeria</h2>
                     <div className="contenedor-galeria">

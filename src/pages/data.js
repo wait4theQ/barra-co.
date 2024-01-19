@@ -1,3 +1,13 @@
+import barraco from './itens/barraco.jpg'
+import gin from './itens/gin.jpg'
+import gin2 from './itens/gin2.jpg'
+import bramble from './itens/bramble.jpg'
+import moscow from './itens/moscow.jpg'
+import penicilin from './itens/penicilin.jpg'
+import ponei from './itens/ponei.jpg'
+import verde from './itens/verde.jpg'
+import bruxa from './itens/bruxa.jpg'
+
 export const drinks = [{
 
     id: 0,
@@ -5,37 +15,43 @@ export const drinks = [{
     ingredients: 'Vodka, Licor de café e Espuma de caramelo salgado',
     price: 'R$ 22,00' ,
     size: '400ml',
+    image: barraco
     
 }, {
     id: 1,
     name: 'Gin Tônica ',
     ingredients: 'Gin, água tônica, limão e alecrim ',
     price: 'R$ 18,00' ,
-    size: '500 ml'
+    size: '500 ml',
+    image: gin
 }, {
     id: 2,
     name: 'Gin Tropical',
     ingredients: 'Gin, energético tropical e rodela de laranja',
     price: 'R$ 16,00' ,
-    size: '500ml'
+    size: '500ml',
+    image: gin2
 }, {
     id: 3,
     name: 'Bramble',
     ingredients: 'Gin, limão e purê de amora',
     price: 'R$ 22,00' ,
-    size: '540ml'
+    size: '540ml',
+    image: bramble
 },{
     id: 4,
     name: 'Moscow Mule',
     ingredients: 'Vodka, limão, gengibre e água tônica',
     price: 'R$ 22,00' ,
-    size: '500ml'
+    size: '500ml',
+    image: moscow
 },{
     id: 5,
     name: 'Penicilin',
     ingredients: 'Whisky, mel, gengibre e limão',
     price: 'R$ 25,00' ,
-    size: '400ml'
+    size: '400ml',
+    image: penicilin
 },{
     id: 6,
     name: 'Cuba Libre',
@@ -77,12 +93,14 @@ export const shots = [{
     name: 'Pônei Maldito',
     ingredients: 'Vodka, Licor de cereja, limão e marshmellow',
     price: 'R$ 15,00' ,
+    image: ponei
     
 },{
     id: 3,
     name: 'Da Bruxa',
     ingredients: 'Whisky, canela e laranja flambada',
     price: 'R$ 16,00' ,
+    image: bruxa
 },{
     id: 4,
     name: 'Drogata',
@@ -93,6 +111,7 @@ export const shots = [{
     name: 'Diabo verde',
     ingredients: 'Absinto Flambado',
     price: 'R$ 20,00' ,
+    image: verde
 },];
 
 export const alcoholFree = [{
