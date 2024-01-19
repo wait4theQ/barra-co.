@@ -4,7 +4,7 @@ import logo from "../img/logo.png";
 import "react-responsive-carousel/lib/styles/carousel.min.css";
 import { Link } from "react-router-dom";
 import AddressBar from "./addressBar";
-//import SmoothScrollLink from "../SmoothScrollLink";
+
 function Navbar() {
   return (
     <header className="App-header">

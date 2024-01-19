@@ -20,6 +20,7 @@ function App() {
 
     return (
         <div className="App">
+            <Navbar className="navbar"></Navbar>
             <Carousel className="Carousel" {...carouselSettings}>
                 <div className="banner">
                     <img
@@ -44,7 +45,6 @@ function App() {
                 </div>
             </Carousel>
 
-            <Navbar></Navbar>
 
             <section className="description-section">
                 <div className="Biography">

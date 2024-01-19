@@ -18,7 +18,7 @@ const Menu = () => {
 
   return (
     <div>
-      <Navbar></Navbar>
+      <Navbar className="navbar-menu"></Navbar>
       <div className="menuContainer">
         <div className="menuButtonContainer">
           <button className={`menuButton ${activeButton === 'drinks' ? 'activeButton' : ''}`} onClick={() => showMenu(drinks, 'drinks')}>
