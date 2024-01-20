@@ -9,7 +9,7 @@ function Navbar() {
   return (
     <header className="App-header">
       <AddressBar />
-      <div className="Header-container Header-border">
+      <div className="header-container Header-border">
         <a href="/" className="Logo-link">
           <img src={logo} className="Bar-logo" alt="logo do bar" />
         </a>
@@ -38,7 +38,6 @@ function Navbar() {
                   GALERIA
                 </Link>
               </li>
-            
           </ul>
         </nav>
       </div>

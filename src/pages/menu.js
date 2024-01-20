@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import { drinks, shots, alcoholFree, others } from './data';
 import './menu.css'; 
 import Footer from '../components/footer.js'
-import Navbar from "../components/navbar";
+import NavbarMenu from "../components/navbarMenu";
 
 
 const Menu = () => {
@@ -18,7 +18,7 @@ const Menu = () => {
 
   return (
     <div>
-      <Navbar className="navbar-menu"></Navbar>
+      <NavbarMenu></NavbarMenu>
       <div className="menuContainer">
         <div className="menuButtonContainer">
           <button className={`menuButton ${activeButton === 'drinks' ? 'activeButton' : ''}`} onClick={() => showMenu(drinks, 'drinks')}>

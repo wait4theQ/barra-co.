@@ -82,7 +82,7 @@ h3 {
     width: 100%;
 }
 
-.Header-border {
+.navbar-menu {
     position:unset !important;
     background-color: #101111;
     width: 100%;
@@ -91,5 +91,4 @@ h3 {
 
 .Bar-logo {
     padding: 10px !important;
-
 }
