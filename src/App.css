@@ -403,11 +403,11 @@ body {
     color: #fff;
     margin: 0 10px;
     text-decoration: none;
-    transition: color 0.3s ease; /* Adiciona uma transição suave na mudança de cor */
+    transition: color 0.3s ease; 
   }
   
   .Footer a:hover {
-    color: #c26dac; /* Cor que você deseja quando passar o mouse */
+    color: #c26dac; 
     
   }
   
@@ -422,6 +422,7 @@ body {
     bottom: 0;
     width: 100%;
  }
+ 
  .border {
     border-top: 0.5px solid #ebe1e2;
     width: 35%;
@@ -438,9 +439,5 @@ body {
     text-decoration: underline;
   }
  .CreatedBy a:hover {
-     color: #c26dac;
- }
- /* COLOQUEI SO PRA TESTAR, DEPOIS REMOVEMOS <3 */
- .menu-section {
-     height: 900px;
+    color:#1c12a1;
  }
