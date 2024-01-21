@@ -18,9 +18,8 @@ function App() {
         dynamicHeight: false,
     };
 
-    return (
-        <div className="App">
-            <Navbar className="navbar"></Navbar>
+    return (<div className="App">
+        <Navbar className="navbar"></Navbar>
             <Carousel className="Carousel" {...carouselSettings}>
                 <div className="banner">
                     <img
@@ -42,11 +41,10 @@ function App() {
                         alt="Banner 3"
                         className="Carousel-img"
                     />
+
                 </div>
-            </Carousel>
-
-
-            <section className="description-section">
+    </Carousel>
+    <section className="description-section">
                 <div className="Biography">
                     <h2>Barra Cô.</h2>
                     <p>
