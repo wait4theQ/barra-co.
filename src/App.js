@@ -69,7 +69,7 @@ function App() {
                 </div>
             </section>
 
-            <section className="gallery" id="galeria">
+            <section className="gallery" id="#galeria">
                 <div className="contenedor">
                     <h2 className="subtitulo">Galeria</h2>
                     <div className="contenedor-galeria">

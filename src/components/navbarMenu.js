@@ -17,24 +17,24 @@ function NavbarMenu() {
 								<nav className="Navigation">
 										<ul className="Navigation-list">
 												<li className="Navigation-item">
-														<Link to="menu" className="Navigation-link">
-																MENU
+														<Link to="/" className="Navigation-link">
+																HOME
 														</Link>
 												</li>
 
 												<li className="Navigation-item">
-														<Link to="events" className="Navigation-link">
+														<Link to="/events" className="Navigation-link">
 																EVENTOS
 														</Link>
 												</li>
 												<li className="Navigation-item">
-														<Link to="contact" className="Navigation-link">
-																CONTATO
+														<Link to="/contact" className="Navigation-link">
+																LOCAL
 														</Link>
 												</li>
 
 												<li className="Navigation-item">
-														<Link to="#galeria" className="Navigation-link">
+														<Link to="/#galeria" className="Navigation-link">
 																GALERIA
 														</Link>
 												</li>

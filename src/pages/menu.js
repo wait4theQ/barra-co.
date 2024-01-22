@@ -18,7 +18,7 @@ const Menu = () => {
 
   return (
     <div>
-      <NavbarMenu></NavbarMenu>
+<NavbarMenu></NavbarMenu>
       <div className="menuContainer">
         <div className="menuButtonContainer">
           <button className={`menuButton ${activeButton === 'drinks' ? 'activeButton' : ''}`} onClick={() => showMenu(drinks, 'drinks')}>
@@ -56,10 +56,10 @@ const Menu = () => {
           </div>
         )}
       </div>
-      <Footer></Footer>
+    <Footer></Footer>
     </div>
     
-  );
+      );
 }
 
 export default Menu;
