@@ -221,13 +221,15 @@ body, html {
     }
     /* CASO DEIXAR CARROSSEL 100% DE ALTURA REM0VER ISSO */
         .header-container {
-            top: 50px;
+            top: 20px;
             padding-bottom: 0px;
         }
 
         .Header-border {
-            bottom: 540px;
-            padding-top: 0px;
+            display: flex;
+            height: fit-content;
+            padding: 20px;
+            border-bottom: unset;
         }
 
 }
