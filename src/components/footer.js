@@ -7,7 +7,7 @@ function Footer() {
             <div className="links">
                 <a href="/">Home</a>
                 <a href="/">Galeria</a>
-                <a href="/menu">Menu</a>
+                <a href="/menu">Cardápio</a>
                 <a href="/events">Eventos</a>
             </div>
             <div className="instagram">

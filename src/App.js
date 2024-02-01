@@ -20,35 +20,44 @@ function App() {
 
     return (<div className="App">
         <Navbar className="navbar"></Navbar>
-            <Carousel className="Carousel" {...carouselSettings}>
-                <div className="banner">
-                    <img
-                        src={require("./img/bannerk.jpeg")}
-                        alt="Banner 1"
-                        className="Carousel-img"
-                    />
-                </div>
-                <div className="banner">
-                    <img
-                        src={require("./img/banner2.jpg")}
-                        alt="Banner 2"
-                        className="Carousel-img"
-                    />
-                </div>
-                <div className="banner">
-                    <img
-                        src={require("./img/banner3.jpg")}
-                        alt="Banner 3"
-                        className="Carousel-img"
-                    />
+        <Carousel className="Carousel" {...carouselSettings}>
+            <div className="banner">
+                <img
+                    src={require("./img/a.jpg")}
+                    alt="Banner 1"
+                    className="Carousel-img"
+                />
+            </div>
 
-                </div>
-    </Carousel>
-    <section className="description-section">
-                <div className="Biography">
-                    <h2>Barra Cô.</h2>
-                    <p>
-                        "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+            <div className="banner">
+                <img
+                    src={require("./img/banner2.jpg")}
+                    alt="Banner 2"
+                    className="Carousel-img"
+                />
+            </div>
+
+            <div className="banner">
+                <img
+                    src={require("./img/banner3.jpg")}
+                    alt="Banner 3"
+                    className="Carousel-img"
+                />
+            </div>
+
+            <div className="banner">
+                <img
+                    src={require("./img/b.jpg")}
+                    alt="Banner 3"
+                    className="Carousel-img"
+                />
+            </div>
+        </Carousel>
+        <section className="description-section">
+            <div className="Biography">
+                <h2>Barra Cô.</h2>
+                <p>
+                    "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
                         eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
                         ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
                         aliquip ex ea commodo consequat. Duis aute irure dolor in

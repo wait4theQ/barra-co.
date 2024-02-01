@@ -18,7 +18,7 @@ function Navbar() {
           <ul className="Navigation-list">
             <li className="Navigation-item">
               <Link to="menu" className="Navigation-link">
-                MENU
+                CARDÁPIO
               </Link>
             </li>
 
