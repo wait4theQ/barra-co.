@@ -28,16 +28,16 @@ function NavbarMenu() {
 														</Link>
 												</li>
 												<li className="Navigation-item">
-														<Link to="contact" className="Navigation-link">
+														<Link to="contato" className="Navigation-link">
 																CONTATO
 														</Link>
 												</li>
 
 												<li className="Navigation-item">
-														<Link to="galeria" className="Navigation-link">
-																GALERIA
-														</Link>
-												</li>
+                                                <Link to="/#galeria" className="Navigation-link">
+                                                                GALERIA
+                                                      </Link>
+                                                </li>
 										</ul>
 								</nav>
 						</div>

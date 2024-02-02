@@ -459,3 +459,10 @@ body {
  .menu-section {
      height: 900px;
  }
+ .footerMenu {
+   
+        background-color: #f5f1f1;
+        color: #6b6767;
+        padding: 15px;
+        text-align: center;
+      }

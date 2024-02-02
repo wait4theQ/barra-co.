@@ -6,6 +6,7 @@ import {Carousel} from "react-responsive-carousel";
 import Navbar from "./components/navbar";
 import Footer from "./components/footer";
 
+
 function App() {
     const carouselSettings = {
         showArrows: false,
@@ -111,6 +112,7 @@ function App() {
             </section>
             <Footer></Footer>
         </div>
+        
     );
 }
 
