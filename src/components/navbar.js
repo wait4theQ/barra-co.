@@ -3,7 +3,7 @@ import "../App.css";
 import logo from "../img/logo.png";
 import "react-responsive-carousel/lib/styles/carousel.min.css";
 import { Link } from "react-router-dom";
-import { Link as ScrollLink, animateScroll as scroll } from 'react-scroll';
+import { Link as ScrollLink } from 'react-scroll';
 
 import AddressBar from "./addressBar";
 
@@ -25,12 +25,12 @@ function Navbar() {
             </li>
 
             <li className="Navigation-item">
-              <Link to="/events" className="Navigation-link">
+              <Link to="events" className="Navigation-link">
                 EVENTOS
               </Link>
             </li>
             <li className="Navigation-item">
-              <Link to="/contato" className="Navigation-link">
+              <Link to="contato" className="Navigation-link">
                 CONTATO
               </Link>
             </li>
