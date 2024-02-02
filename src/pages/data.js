@@ -27,7 +27,8 @@ export const drinks = [{
     ingredients: 'Vodka, Licor de café e Espuma de caramelo salgado',
     price: 'R$ 22,00' ,
     size: '400ml',
-    image: barraco
+    image: barraco,
+    color: '#dbb4c9'
     
 }, {
     id: 1,
@@ -35,63 +36,71 @@ export const drinks = [{
     ingredients: 'Gin, água tônica, limão e alecrim ',
     price: 'R$ 18,00' ,
     size: '500 ml',
-    image: gin
+    image: gin,
+    color: '#CBD1AA'
 }, {
     id: 2,
     name: 'Gin Tropical',
     ingredients: 'Gin, energético tropical e rodela de laranja',
     price: 'R$ 16,00' ,
     size: '500ml',
-    image: gin2
+    image: gin2,
+    color: '#B1AAD1'
 }, {
     id: 3,
     name: 'Bramble',
     ingredients: 'Gin, limão e purê de amora',
     price: 'R$ 22,00' ,
     size: '540ml',
-    image: bramble
+    image: bramble,
+    color: '#F4ACB7'
 },{
     id: 4,
     name: 'Moscow Mule',
     ingredients: 'Vodka, limão, gengibre e água tônica',
     price: 'R$ 22,00' ,
     size: '500ml',
-    image: moscow
+    image: moscow,
+    color: '#EADFA9'
 },{
     id: 5,
     name: 'Penicilin',
     ingredients: 'Whisky, mel, gengibre e limão',
     price: 'R$ 25,00' ,
     size: '400ml',
-    image: penicilin
+    image: penicilin,
+    color: '#BEDEC5'
 },{
     id: 6,
     name: 'Cuba Libre',
     ingredients: 'Rum Ouro, limão e coca-cola',
     price: 'R$ 18,00' ,
     size: '500ml',
-    image : cubalibre
+    image : cubalibre,
+    color: '#FFE5DD'
 },{
     id: 7,
     name: 'Chevette',
     ingredients: 'Vodka, água de coco, limão e baunilha',
     price: 'R$ 20,00' ,
     size: '500ml',
-    image : chevette
-
+    image : chevette,
+    color: '#B1D4DE'
 },{
     id: 8,
     name: 'Negroni',
     ingredients: 'Campari, gim e vermute tinto',
     price: 'R$ 22,00' ,
     size: '300ml',
-    image : negroni
+    image : negroni,
+    color: '#A9B2CF'
 },{
     id: 9,
     name: 'Drinks fora da carta',
     ingredients: '(consulte disponibilidade)',
     price: 'R$ 28,00' ,
-    size: ''
+    size: '',
+    color: '#FFFFFF'
 }];
 
 export const shots = [{

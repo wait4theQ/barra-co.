@@ -14,7 +14,7 @@ function NavbarMenu() {
 										<img src={logo} className="Bar-logo logo-menu" alt="logo do bar" />
 								</a>
 
-								<nav className="Navigation">
+								<nav className="Navigation nav-pages-menu">
 										<ul className="Navigation-list">
 												<li className="Navigation-item">
 														<Link to="/" className="Navigation-link">
