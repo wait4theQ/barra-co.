@@ -10,10 +10,19 @@
 }
 
 .menuButton img {
-  width: 200px; 
-  height: 300px; 
-  border-radius: 5px;
-  margin-bottom: 15px;
+    width: 200px;
+    height: 300px;
+    object-fit: cover ;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+.img-botao img{
+    width: 150px;
+    height: 100px;
+    object-fit: cover ;
+    border-radius: 5px;
+    margin-bottom: 10px;
 }
 
 .menuButton h4 {
@@ -35,7 +44,7 @@
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    margin-top: auto;
+    margin: 50px;
 }
 
 .menuItem {

@@ -51,7 +51,7 @@ body, html {
     margin-right: auto;
     display: flex;
     justify-content: center;
-    padding: 0%;
+    padding: 5px;
     max-width: 100%;
     height: auto;
     max-height: 120px;
@@ -88,7 +88,7 @@ body, html {
 
     &:hover {
         color: #f1abe6;
-        border-bottom: 2px solid #f5bbeb;
+        border-bottom: 2px solid #f1abe6;
     }
 }
 
@@ -117,6 +117,16 @@ body, html {
 
 .banner {
     max-height: 950px;
+}
+.banner:before {
+    content:"";
+    position: absolute;
+    top:0;
+    left:0;
+    height:100%;
+    width:100%;
+    background: rgba(0,0,0,0.6);
+    z-index:999;
 }
 
 @media (max-width: 770px) {
@@ -162,7 +172,7 @@ body, html {
     }
 
     .banner {
-        height: 100vh;
+        height: 50vh;
     }
 
     .Carousel-img {
@@ -209,23 +219,16 @@ body, html {
         border-radius: 8px;
         box-shadow: 0 0 10px rgba(7, 7, 7, 0.952);
     }
-}
+    /* CASO DEIXAR CARROSSEL 100% DE ALTURA REM0VER ISSO */
+        .header-container {
+            top: 50px;
+            padding-bottom: 0px;
+        }
 
-@media only screen and (max-width: 767px) {
-    .header-container {
-        top: 50px;
-        padding-bottom: 0px;
-    }
-
-    .Header-border {
-        bottom: 540px;
-        padding-top: 0px;
-    }
-
-    .Navigation {
-        padding-bottom: 0px;
-        padding-top: 10px;
-    }
+        .Header-border {
+            bottom: 540px;
+            padding-top: 0px;
+        }
 
 }
 
@@ -383,7 +386,7 @@ body {
     color: #6b6767;
     padding: 15px;
     text-align: center;
-  }
+ }
   
   .Footer a {
     color: #fff;
