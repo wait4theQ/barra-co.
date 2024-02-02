@@ -7,6 +7,18 @@ import penicilin from './itens/penicilin.jpg'
 import ponei from './itens/ponei.jpg'
 import verde from './itens/verde.jpg'
 import bruxa from './itens/bruxa.jpg'
+import negroni from './itens/negroni.jpg'
+import chazin from './itens/chazin.jpg'
+import cubalibre from './itens/cubalibre.jpg'
+import gargarejo from './itens/gargarejo.jpg'
+import coca from './itens/coca.jpg'
+import chevette from './itens/chevette.jpg'
+import martelinho from './itens/martelinho.jpg'
+import drogata from './itens/drogata.jpg'
+import halls from './itens/halls.jpg'
+import trident from './itens/trident.jpg'
+import agua from './itens/agua.jpg'
+import copao from './itens/copao.jpg'
 
 export const drinks = [{
 
@@ -57,19 +69,23 @@ export const drinks = [{
     name: 'Cuba Libre',
     ingredients: 'Rum Ouro, limão e coca-cola',
     price: 'R$ 18,00' ,
-    size: '500ml'
+    size: '500ml',
+    image : cubalibre
 },{
     id: 7,
     name: 'Chevette',
     ingredients: 'Vodka, água de coco, limão e baunilha',
     price: 'R$ 20,00' ,
-    size: '500ml'
+    size: '500ml',
+    image : chevette
+
 },{
     id: 8,
     name: 'Negroni',
     ingredients: 'Campari, gim e vermute tinto',
     price: 'R$ 22,00' ,
-    size: '300ml'
+    size: '300ml',
+    image : negroni
 },{
     id: 9,
     name: 'Drinks fora da carta',
@@ -83,11 +99,13 @@ export const shots = [{
     name: 'Martelinho',
     ingredients: 'Cachaça, cravo e canela',
     price: 'R$ 8,00' ,
+    image : martelinho
 },{
     id: 1,
     name: 'Gargarejo',
     ingredients: 'Cachaça de jambu e licor de menta',
-    price: 'R$ 13,00' ,
+    price: 'R$ 13,00',
+    image : gargarejo
 },{
     id: 2,
     name: 'Pônei Maldito',
@@ -106,6 +124,7 @@ export const shots = [{
     name: 'Drogata',
     ingredients: 'Tequila, licor de laranja, limão e sal',
     price: 'R$ 18,00' ,
+    image : drogata
 },{
     id: 5,
     name: 'Diabo verde',
@@ -119,28 +138,33 @@ export const alcoholFree = [{
     name: 'Cházin',
     ingredients: 'Chá mate batido com açucar e limão',
     size:'500ml',
-    price: 'R$ 16,00' ,
+    price: 'R$ 16,00',
+    image : chazin
 },{
     id: 1,
     name: 'Suquin',
     ingredients: 'Purê de amora batido com gengibre e limão',
     size:'400ml',
-    price: 'R$ 15,00' ,
+    price: 'R$ 15,00',
+    image: bramble
 },{
     id: 2,
     name: 'Água garrafa',
     size:'500ml',
-    price: 'R$ 5,00' ,
+    price: 'R$ 5,00',
+    image : agua
 },{
     id: 3,
     name: 'Coca/tônica',
     size:'500ml',
     price: 'R$ 6,00' ,
+    image : coca
 },{
     id: 4,
     name: 'Copão energético',
     size:'600ml',
     price: 'R$ 6,00' ,
+    image: copao
 }];
 
 export const others = [{
@@ -151,10 +175,12 @@ export const others = [{
     id: 1,
     name: 'Trident',
     price: 'R$ 4,00' ,
+    image : trident
 },{
     id: 2,
     name: 'Halls',
     price: 'R$ 3,00' ,
+    image : halls
 },{
     id: 3,
     name: 'Gudanzin',
@@ -167,4 +193,5 @@ export const others = [{
     id: 5,
     name: 'Cigarro avulso',
     price: 'R$ 2,00' ,
+    image: ''
 },];

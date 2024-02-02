@@ -18,7 +18,7 @@ const Menu = () => {
 
   return (
     <div>
-<NavbarMenu></NavbarMenu>
+      <NavbarMenu></NavbarMenu>
       <div className="menuContainer">
         <div className="menuButtonContainer">
           <button className={`menuButton ${activeButton === 'drinks' ? 'activeButton' : ''}`} onClick={() => showMenu(drinks, 'drinks')}>
@@ -44,22 +44,23 @@ const Menu = () => {
 
         {isMenuVisible && (
   <div className="menuContainer">
-    {currentMenu.map(item => (
-      <div key={item.id} className="menuItem">
-        <img src={item.image} alt={item.name} />
-        <h3>{item.name}</h3>
-        <p>{item.ingredients}</p>
-        <p className="price">{item.price}</p>
-        <p>{item.size}</p>
+    {currentMenu.map(item => (<div key={item.id} className="menuItem">
+          {item.image && <img src={item.image} alt={item.name}/>}
+      <div className="name-container">
+          <h3>{item.name}</h3>
+        {item.size &&
+          <p className="size"> {item.size}</p>
+        }
       </div>
-            ))}
-          </div>
-        )}
+          <p>{item.ingredients}</p>
+          <p className="price">{item.price}</p>
+        </div>))}
+  </div>)}
       </div>
-    <Footer></Footer>
+      <Footer></Footer>
     </div>
     
-      );
+  );
 }
 
 export default Menu;

@@ -11,7 +11,7 @@ function NavbarMenu() {
 						<AddressBar />
 						<div className="header-container header-border navbar-menu">
 								<a href="/" className="Logo-link">
-										<img src={logo} className="Bar-logo" alt="logo do bar" />
+										<img src={logo} className="Bar-logo logo-menu" alt="logo do bar" />
 								</a>
 
 								<nav className="Navigation">
@@ -23,21 +23,21 @@ function NavbarMenu() {
 												</li>
 
 												<li className="Navigation-item">
-														<Link to="/events" className="Navigation-link">
+														<Link to="events" className="Navigation-link">
 																EVENTOS
 														</Link>
 												</li>
 												<li className="Navigation-item">
-														<Link to="/contact" className="Navigation-link">
-																LOCAL
+														<Link to="contato" className="Navigation-link">
+																CONTATO
 														</Link>
 												</li>
 
 												<li className="Navigation-item">
-														<Link to="/#galeria" className="Navigation-link">
-																GALERIA
-														</Link>
-												</li>
+                                                <Link to="/#galeria" className="Navigation-link">
+                                                                GALERIA
+                                                      </Link>
+                                                </li>
 										</ul>
 								</nav>
 						</div>
