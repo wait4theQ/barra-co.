@@ -23,8 +23,8 @@ function NavbarMenu() {
 												</li>
 
 												<li className="Navigation-item">
-														<Link to="/events" className="Navigation-link">
-																EVENTOS
+														<Link to="/menu" className="Navigation-link">
+																CARDÁPIO
 														</Link>
 												</li>
 												<li className="Navigation-item">

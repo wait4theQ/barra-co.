@@ -1,0 +1,27 @@
+.contato-container {
+    min-height: 100vh; 
+    display: flex;
+    flex-direction: column; 
+    justify-content: space-between;
+    align-items: center;
+    margin: 20px;
+}
+
+.foto-contato {
+    width: 40%;
+    max-width: 300px;
+    border-radius: 10px;
+}
+
+.info-contato {
+    flex: 1;
+    text-align: center;
+    max-width: 60%;
+}
+
+.map-container {
+    height: 300px; 
+    margin-top: 20px; 
+    width: 100%; 
+}
+

@@ -23,17 +23,17 @@ function NavbarMenu() {
 												</li>
 
 												<li className="Navigation-item">
+														<Link to="/menu" className="Navigation-link">
+																CARDÁPIO
+														</Link>
+												</li>
+												<li className="Navigation-item">
 														<Link to="/events" className="Navigation-link">
 																EVENTOS
 														</Link>
 												</li>
-												<li className="Navigation-item">
-														<Link to="/contato" className="Navigation-link">
-																CONTATO
-														</Link>
-												</li>
 
-												
+					
 										</ul>
 								</nav>
 						</div>

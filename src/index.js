@@ -1,4 +1,5 @@
 import ReactDOM from "react-dom/client";
+import 'leaflet/dist/leaflet.css';
 
 import React from "react";
 import {
@@ -8,6 +9,8 @@ import {
 import App from "./App.js";
 import Menu from "./pages/menu.js";
 import Events from "./pages/events.js";
+import Contato from "./pages/contato.js";
+
 
 
 export default function Routing() {
@@ -17,6 +20,7 @@ export default function Routing() {
                 <Route path="/" element={<App/>}/>
                 <Route path="/menu" element={<Menu/>}/>
                 <Route path="/events" element={<Events/>}/>
+                <Route path="/contato" element={<Contato/>}/>
             </Routes>
         </BrowserRouter>
     );
