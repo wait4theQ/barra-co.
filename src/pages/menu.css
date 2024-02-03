@@ -16,26 +16,26 @@
 }
 
 .menuButton img {
-    height: 200px;
-    width: 200px;
+    height: 100px;
+
     object-fit: cover ;
-    border-radius: 5px;
+    border-radius: 0;
     margin-bottom: 10px;
 }
 
 .img-botao img{
     width: 150px;
-    height: 100px;
+    height: 150px;
     object-fit: cover ;
     border-radius: 5px;
-    margin-bottom: 10px;
+    margin-bottom: 50px;
 }
 
 .menuButton h4 {
     font-size: 1.5rem;
     font-weight: bold;
     margin-top: 5px;
-    margin-bottom: 10px;
+    margin-bottom: 100px;
     font-family: 'Poppins', sans-serif;
     color: #9f8ad0;
 }
@@ -50,24 +50,26 @@
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    margin:50px;
+    margin:40px;
 }
 
 .menuItem {
-    border: 1px solid #3e1e50;
     padding: 15px;
-    margin: 15px;
-    width: 250px;
+    margin: 10px;
+    margin-bottom: 100px;
+    width: 230px;
     text-align: center;
     border-radius: 10px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.48);
     transition: transform 0.3s ease-in-out;
     color: #000000;
+    opacity: 100%;
     display: flex;
     flex-direction: column;
     align-content: center;
     justify-content: space-between;
-    align-items: stretch;
+    align-items: center;
+    font-size: 13px;
 }
 
 .menuItem:hover {
@@ -75,21 +77,24 @@
 }
 
 .menuItem img {
-    height: 230px;
-    width: auto;
+    height: 180px;
+    width: 180px;
     object-fit: cover ;
-    border-radius: 8px;
-    margin-bottom: 10px;
+    border-radius: 200px;
+    margin-top: -80px;
+    margin-bottom: 20px;
+    box-shadow: 0 0 15px rgb(0, 0, 0);
+
 }
 
 h3 {
     margin-bottom: 5px;
-    font-size: 1.5rem;
+    font-size: 1.3rem;
 }
 
 .size {
-    font-size:13px;
-    color: rgba(16, 17, 17, 0.87);
+    font-size:12px;
+    color: rgb(16, 17, 17);
 }
 .name-container {
     display:flex;
@@ -98,7 +103,7 @@ h3 {
 }
 .price {
     font-weight: bold;
-    color: #d82809;
+    color: #101111;
     font-size: 20px;
     margin:5px;
 }
@@ -115,15 +120,27 @@ h3 {
 
 .navbar-menu {
     position:unset !important;
-    background-color: #121213;
+    background-color: #101111;
     width: 100%;
-    padding: 40px !important;
-
+    padding: 5px !important;
+    margin-bottom: 65px !important;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
 }
 
+.nav-pages-menu {
+    width: fit-content;
+    margin: 10px;
+}
 .logo-menu {
     height: 80px !important;
-    margin-bottom: 10px;
+    margin: 10px;
+    margin-bottom: 25px;
 
 }
 
+.info-box {
+    display: flex;
+}
