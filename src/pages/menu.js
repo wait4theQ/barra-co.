@@ -55,6 +55,7 @@ const Menu = () => {
         </div>))}
   </div>)}
       </div>
+      
       <Footer></Footer>
     </div>
     

@@ -6,7 +6,7 @@ function Footer() {
     return (<footer className="Footer">
             <div className="links">
                 <a href="/">Home</a>
-                <a href="/#galeria">Galeria</a>
+                <a href="/contato">Contato</a>
                 <a href="/menu">Cardápio</a>
                 <a href="/events">Eventos</a>
             </div>

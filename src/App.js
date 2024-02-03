@@ -62,11 +62,15 @@ function App() {
             jornada única e cada instante é marcado por um sabor inigualável.
             Localizado no coração da cidade, somos a celebração da arte da coquetelaria. 
             A decoração contemporânea e a iluminação suave criam o cenário perfeito para
-            noites memoráveis. Bebidas de qualidade, sabor incomparável! Nossa seleção de bebidas é minuciosamente escolhida para
+            noites memoráveis com amigos ou encontros especiais. Bebidas de
+            Qualidade, sabor incomparável! No Barra Cô, a qualidade é a nossa
+            prioridade. Nossa seleção de bebidas é minuciosamente escolhida para
             oferecer aos nossos clientes uma experiência única. Desde clássicos
             reinventados até criações exclusivas, nossos drinks são verdadeiras
             obras de arte líquidas. Shot a Shot, uma viagem de sabores, cada shot
-            possui uma experiência única!! Cada gole revela camadas de sabores que
+            é uma experiência sensorial distinta. Nossos
+            mixologistas talentosos não apenas preparam bebidas, eles criam
+            narrativas gustativas. Cada gole revela camadas de sabores que
             cativam os sentidos, transformando cada visita em uma jornada
             inesquecível."
           </p>
