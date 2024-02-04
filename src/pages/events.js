@@ -4,7 +4,7 @@ import Footer from '../components/footer';
 import './events.css';
 
 const cards = [
-  { title: 'Quarta', copy: 'teste', imageUrl: '' },
+  { title: 'Quarta', copy: 'teste', imageUrl: 'https://mangaonline.biz/wp-content/uploads/2024/01/19.png'},
   { title: 'Quinta', copy: 'teste', imageUrl: '' },
   { title: 'Sexta',  copy: 'teste', imageUrl: '' },
   { title: 'Sabado', copy: 'teste', imageUrl: '' }

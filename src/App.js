@@ -45,13 +45,21 @@ function App() {
             className="Carousel-img"
           />
         </div>
+        <div className="banner">
+          <img
+            src={require("./img/bannerk.jpeg")}
+            alt="Banner 4"
+            className="Carousel-img"
+          />
+        </div>
 
         <div className="banner">
           <img
             src={require("./img/b.jpg")}
-            alt="Banner 3"
+            alt="Banner 5"
             className="Carousel-img"
           />
+          
         </div>
       </Carousel>
       <section className="description-section">

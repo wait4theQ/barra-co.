@@ -204,3 +204,5 @@ export const others = [{
     price: 'R$ 2,00' ,
     image: ''
 },];
+
+
