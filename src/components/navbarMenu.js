@@ -1,6 +1,6 @@
 import React from "react";
 import "../App.css";
-import logo from "../img/logo.png";
+import logo from "../img/logo2.png";
 import "react-responsive-carousel/lib/styles/carousel.min.css";
 import { Link } from "react-router-dom";
 import AddressBar from "./addressBar";
@@ -15,7 +15,7 @@ function NavbarMenu() {
 								</a>
 
 								<nav className="Navigation nav-pages-menu">
-										<ul className="Navigation-list">
+										<ul className="Navigation-list nav-list-menu">
 												<li className="Navigation-item">
 														<Link to="/" className="Navigation-link">
 																HOME

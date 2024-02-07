@@ -100,7 +100,7 @@ export const drinks = [{
     ingredients: '(consulte disponibilidade)',
     price: 'R$ 28,00' ,
     size: '',
-    color: '#FFFFFF'
+    color: '#A97C73'
 }];
 
 export const shots = [{
@@ -108,38 +108,45 @@ export const shots = [{
     name: 'Martelinho',
     ingredients: 'Cachaça, cravo e canela',
     price: 'R$ 8,00' ,
-    image : martelinho
+    image : martelinho,
+    color: '#DEB986'
+
 },{
     id: 1,
     name: 'Gargarejo',
     ingredients: 'Cachaça de jambu e licor de menta',
     price: 'R$ 13,00',
-    image : gargarejo
+    image : gargarejo,
+    color: '#DD9380'
 },{
     id: 2,
     name: 'Pônei Maldito',
     ingredients: 'Vodka, Licor de cereja, limão e marshmellow',
     price: 'R$ 15,00' ,
-    image: ponei
+    image: ponei,
+    color: '#9CFFFA'
     
 },{
     id: 3,
     name: 'Da Bruxa',
     ingredients: 'Whisky, canela e laranja flambada',
     price: 'R$ 16,00' ,
-    image: bruxa
+    image: bruxa,
+    color: '#BD93BD'
 },{
     id: 4,
     name: 'Drogata',
     ingredients: 'Tequila, licor de laranja, limão e sal',
     price: 'R$ 18,00' ,
-    image : drogata
+    image : drogata,
+    color: '#CDE7B0'
 },{
     id: 5,
     name: 'Diabo verde',
     ingredients: 'Absinto Flambado',
     price: 'R$ 20,00' ,
-    image: verde
+    image: verde,
+    color: '#828355'
 },];
 
 export const alcoholFree = [{
@@ -148,61 +155,72 @@ export const alcoholFree = [{
     ingredients: 'Chá mate batido com açucar e limão',
     size:'500ml',
     price: 'R$ 16,00',
-    image : chazin
+    image : chazin,
+    color: '#8D99AE'
 },{
     id: 1,
     name: 'Suquin',
     ingredients: 'Purê de amora batido com gengibre e limão',
     size:'400ml',
     price: 'R$ 15,00',
-    image: bramble
+    image: bramble,
+    color: '#FCB0B3'
 },{
     id: 2,
     name: 'Água garrafa',
     size:'500ml',
     price: 'R$ 5,00',
-    image : agua
+    image : agua,
+    color: '#BE97C6'
 },{
     id: 3,
     name: 'Coca/tônica',
     size:'500ml',
     price: 'R$ 6,00' ,
-    image : coca
+    image : coca,
+    color: '#DFCC74'
 },{
     id: 4,
     name: 'Copão energético',
     size:'600ml',
     price: 'R$ 6,00' ,
-    image: copao
+    image: copao,
+    color: '#94B0DA'
 }];
 
 export const others = [{
     id: 0,
     name: 'Cerveja long neck',
     price: 'R$ 12,00' ,
+    color: '#FFA3A5'
 },{
     id: 1,
     name: 'Trident',
     price: 'R$ 4,00' ,
-    image : trident
+    image : trident,
+    color: '#505A5B'
 },{
     id: 2,
     name: 'Halls',
     price: 'R$ 3,00' ,
-    image : halls
+    image : halls,
+    color: '#BAA898'
 },{
     id: 3,
     name: 'Gudanzin',
-    price: 'R$ 3,00' ,
+    price: 'R$ 3,00',
+    color: '#C99DA3'
 },{
     id: 4,
     name: 'Batata Chips',
-    price: 'R$ 6,00' ,
+    price: 'R$ 6,00',
+    color: '#AFD0D6'
 },{
     id: 5,
     name: 'Cigarro avulso',
     price: 'R$ 2,00' ,
-    image: ''
+    image: '',
+    color: '#BBA0CA'
 },];
 
 

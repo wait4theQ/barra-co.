@@ -3,11 +3,13 @@ import NavbarMenu from '../components/navbarEvents';
 import Footer from '../components/footer';
 import './events.css';
 
+
 const cards = [
-  { title: 'Quarta', copy: 'teste', imageUrl: 'https://mangaonline.biz/wp-content/uploads/2024/01/19.png'},
-  { title: 'Quinta', copy: 'teste', imageUrl: '' },
-  { title: 'Sexta',  copy: 'teste', imageUrl: '' },
-  { title: 'Sabado', copy: 'teste', imageUrl: '' }
+  { title: 'SEXTA', copy: '09/02', imageUrl: 'https://pbs.twimg.com/media/GFvktqVXsAAjKA6?format=jpg&name=medium'},
+  { title: 'SÁBADO', copy: '10/02', imageUrl: 'https://pbs.twimg.com/media/GFvktqTXIAEKCsA?format=jpg&name=medium' },
+  { title: 'DOMINGO',  copy: '11/02', imageUrl: 'https://pbs.twimg.com/media/GFvktqQWMAAfXBS?format=jpg&name=medium' },
+  { title: 'SEGUNDA', copy: '12/02', imageUrl: 'https://pbs.twimg.com/media/GFvktqSW0AAxe_5?format=jpg&name=medium' },
+  { title: 'TERÇA ', copy: '13/02', imageUrl: 'https://pbs.twimg.com/media/GFvkxaoXcAAkXy7?format=jpg&name=medium' }
 ];
 
 const Card = ({ title, copy, imageUrl }) => {
@@ -35,18 +37,19 @@ const Card = ({ title, copy, imageUrl }) => {
   );
 };
 
-const PageContent = () => (
-  <main className="page-content">
-    {cards.map((card, index) => (
-      <Card key={index} title={card.title} copy={card.copy} imageUrl={card.imageUrl} />
-    ))}
-  </main>
-);
-
 const Events = () => (
   <div>
     <NavbarMenu />
-    <PageContent />
+
+    <h1>CARNAVAL 2024</h1>
+
+    
+    <main className="page-content">
+      {cards.map((card, index) => (
+        <Card key={index} title={card.title} copy={card.copy} imageUrl={card.imageUrl} />
+      ))}
+    </main>
+
     <Footer />
   </div>
 );

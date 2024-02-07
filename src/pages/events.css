@@ -22,6 +22,7 @@
 }
 
 .card {
+  
   position: relative;
   display: flex;
   align-items: flex-end;
@@ -31,13 +32,14 @@
   height: 350px;
   text-align: center;
   border-radius: 8px;
-  color: whitesmoke;
+  color: rgb(255, 255, 255);
   background-color: whitesmoke;
   box-shadow: 0 1px 1px rgba(0, 0, 0, 0.1),
     0 2px 2px rgba(0, 0, 0, 0.1),
     0 4px 4px rgba(0, 0, 0, 0.1),
     0 8px 8px rgba(0, 0, 0, 0.1),
     0 16px 16px rgba(0, 0, 0, 0.1);
+    
 
   &:before {
     content: '';
@@ -47,7 +49,7 @@
     width: 100%;
     height: 110%;
     background-size: cover;
-    background-position: 0 0;
+    background-position: 50% 0;
     transition: transform calc(var(--d) * 1.5) var(--e);
     pointer-events: none;
   }
@@ -69,7 +71,7 @@
       hsla(0, 0%, 0%, 0.072) 31.2%,
       hsla(0, 0%, 0%, 0.123) 39.4%,
       hsla(0, 0%, 0%, 0.182) 46.6%,
-      hsla(0, 0%, 0%, 0.249) 53.1%,
+      hsla(0, 0%, 0%, 0.089) 53.1%,
       hsla(0, 0%, 0%, 0.320) 58.9%,
       hsla(0, 0%, 0%, 0.394) 64.3%,
       hsla(0, 0%, 0%, 0.468) 69.3%,
@@ -85,21 +87,30 @@
   }
 
   &:nth-child(1):before {
-    background-image: url(https://mangaonline.biz/wp-content/uploads/2024/01/19.png);
+    background-image: url(https://pbs.twimg.com/media/GFvktqVXsAAjKA6?format=jpg&name=medium);
   }
 
   &:nth-child(2):before {
-    background-image: url();
+    background-image: url(https://pbs.twimg.com/media/GFvktqTXIAEKCsA?format=jpg&name=medium);
   }
 
   &:nth-child(3):before {
-    background-image: url();
+    background-image: url(https://pbs.twimg.com/media/GFvktqQWMAAfXBS?format=jpg&name=medium);
   }
 
   &:nth-child(4):before {
-    background-image: url();
+    background-image: url(https://pbs.twimg.com/media/GFvktqSW0AAxe_5?format=jpg&name=medium);
   }
+  
+  &:nth-child(5):before {
+    background-image: url(https://pbs.twimg.com/media/GFvkxaoXcAAkXy7?format=jpg&name=medium);
+  }
+
 }
+
+
+
+
 
 .content {
   position: relative;
@@ -228,5 +239,13 @@
     top: 1rem; 
     right: 1rem; 
   }
-  
-  
+
+  .page-content {
+    display: grid;
+    grid-gap: 3rem;
+    padding: 1rem;
+    max-width: 1024px;
+    margin: 0 auto;
+  }
+
+
